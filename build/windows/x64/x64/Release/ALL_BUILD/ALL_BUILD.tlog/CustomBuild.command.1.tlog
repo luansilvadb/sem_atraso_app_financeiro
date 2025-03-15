@@ -1,0 +1,10 @@
+^C:\USERS\LUANV\DOWNLOADS\SEM_ATRASO_APP_FINANCEIRO\WINDOWS\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/luanv/Downloads/sem_atraso_app_financeiro/windows -BC:/Users/luanv/Downloads/sem_atraso_app_financeiro/build/windows/x64 --check-stamp-file C:/Users/luanv/Downloads/sem_atraso_app_financeiro/build/windows/x64/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

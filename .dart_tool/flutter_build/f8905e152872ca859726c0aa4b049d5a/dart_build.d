@@ -1,0 +1,1 @@
+ C:\\Users\\luanv\\Downloads\\sem_atraso_app_financeiro\\.dart_tool\\flutter_build\\f8905e152872ca859726c0aa4b049d5a\\dart_build_result.json: 

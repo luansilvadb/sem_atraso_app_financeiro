@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\luanv\Downloads\sem_atraso_app_financeiro\build\windows\x64\CMakeFiles\425c67009a07faac40615c303e2dc961\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{51096389-D75D-3651-96E4-2B217EFE5AD8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,28 @@
+^C:\USERS\LUANV\DOWNLOADS\SEM_ATRASO_APP_FINANCEIRO\BUILD\WINDOWS\X64\CMAKEFILES\F2E34B1190F4B99D5801A2D83A1A7D9A\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\flutter PROJECT_DIR=C:\Users\luanv\Downloads\sem_atraso_app_financeiro FLUTTER_ROOT=C:\flutter FLUTTER_EPHEMERAL_DIR=C:\Users\luanv\Downloads\sem_atraso_app_financeiro\windows\flutter\ephemeral PROJECT_DIR=C:\Users\luanv\Downloads\sem_atraso_app_financeiro FLUTTER_TARGET=lib\main.dart DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=true PACKAGE_CONFIG=C:\Users\luanv\Downloads\sem_atraso_app_financeiro\.dart_tool\package_config.json C:/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\LUANV\DOWNLOADS\SEM_ATRASO_APP_FINANCEIRO\BUILD\WINDOWS\X64\CMAKEFILES\48226BBAECD15FFC955D472610BC98BD\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\LUANV\DOWNLOADS\SEM_ATRASO_APP_FINANCEIRO\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/luanv/Downloads/sem_atraso_app_financeiro/windows -BC:/Users/luanv/Downloads/sem_atraso_app_financeiro/build/windows/x64 --check-stamp-file C:/Users/luanv/Downloads/sem_atraso_app_financeiro/build/windows/x64/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
